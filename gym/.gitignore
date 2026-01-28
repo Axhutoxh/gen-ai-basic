@@ -1,0 +1,45 @@
+# ------------------------------------------------
+# Python / Environment Fundamentals
+# ------------------------------------------------
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments (Local environment folders)
+venv/
+env/
+.env
+.venv/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+
+# ------------------------------------------------
+# Streamlit Specifics
+# ------------------------------------------------
+# 🛑 CRITICAL: Never share your secrets (API keys/passwords)
+.streamlit/secrets.toml
+
+# Note: We usually DO commit .streamlit/config.toml
+# because we want our theme settings to persist for everyone.
+
+# ------------------------------------------------
+# Operating System Metadata
+# ------------------------------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------------------------------
+# Data & Logs (Optional but recommended)
+# ------------------------------------------------
+# Ignore local data files if they are large or sensitive
+data/
+*.csv
+*.xlsx
+
+# Logs
+*.log

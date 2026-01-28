@@ -1,0 +1,35 @@
+# .streamlit/config.toml
+
+[theme]
+# The primary color of the app (buttons, sliders, etc.)
+primaryColor = "#F63366"
+
+# Background color for the main content area
+backgroundColor = "#FFFFFF"
+
+# Background color for the sidebar and interactive widgets
+secondaryBackgroundColor = "#F0F2F6"
+
+# Color of text
+textColor = "#262730"
+
+# Font family options: "sans serif", "serif", "monospace"
+font = "sans serif"
+
+[server]
+# Set to true if running on a server (like EC2 or Heroku) to avoid opening a browser window
+headless = true
+
+# The port where the app will run (default is 8501)
+port = 8501
+
+# Enables CORS (Cross-Origin Resource Sharing) protection
+enableCORS = false
+
+[client]
+# Hides the "Deploy" button and hamburger menu developer options
+toolbarMode = "viewer"
+
+[browser]
+# Hides the "Made with Streamlit" footer (if you want a cleaner look)
+gatherUsageStats = false
